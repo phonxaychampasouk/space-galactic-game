@@ -1,0 +1,31 @@
+                ConsoleKeyInfo cki;   
+                cki = Console.ReadKey(true);
+                switch (cki.Key)
+                {
+                    case ConsoleKey.N:
+                        {
+                            Console.Clear();
+                           
+
+                            break;
+                        }
+                    case ConsoleKey.B:
+                        {
+                            Console.Clear();
+
+                           
+                            break;
+                        }
+                    case ConsoleKey.D3:
+                        {
+                            Console.Clear();
+                            break;
+                        }
+                    default:
+                        {
+
+                            Console.Clear();
+                            break;
+                        }
+
+                }
